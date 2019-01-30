@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/reports.css" type="text/css" rel="stylesheet">
+
+  <title>Site</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="navbar">
+
+      <div class="logo">
+        <img src="./resources/img/circular-shape-silhouette.svg">
+      </div>
+
+      <a href="operations.html" class="navbarLink">
+        <div class="navbarItem">
+          <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+              Operations
+            </p>
+        </div>
+      </a>
+
+      <a href="reports.html" class="navbarLink">
+        <div class="navbarItem"  style="background-color: gray" >
+            <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+              Report
+            </p>
+        </div>
+      </a>
+
+      <a href="profile.html" class="navbarLink">
+        <div class="navbarItem">
+            <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+              Profile
+            </p>
+        </div>
+      </a>
+
+      <a href="" class="navbarLink">
+        <div class="navbarItem">
+            <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+              Help
+            </p>
+        </div>
+      </a>
+
+      <a href="login.html" class="logoutLink">
+          <div class="logout">
+                <img src="./resources/img/circular-shape-silhouette.svg">
+              <p>
+                Logout
+              </p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="userLoggedIn">
+      <p>Logged in as</p>
+      <div class="profile">
+          <a href="profile.html">
+              <img src="./resources/img/circular-shape-silhouette.svg"></img>
+          </a>
+          <div class="userinfo">
+              <p class="username">
+                  <a href="profile.html">Arne Schlenzka</a>
+              </p>      
+              <p class="userrole">
+                  HOSPITAL ADMIN
+              </p>
+          </div>
+      </div>
+    </div>
+
+    <div class="content">
+        <h1 class="pageHeader">
+            Reports
+        </h1>
+        <table id="reports">
+            <tr>
+                <th>Operation title</th>
+                <th>Activity</th>
+                <th>Completed</th>
+                <th>Status</th>
+                <th>User</th>
+
+            </tr>
+            <tr>
+                <td>
+                  <p class="reportOperationName">
+                    Carpal Tunnel Release
+                  </p>
+                </td>
+                <td>
+                  <div class="operationTimeDate">
+                    <p class="operationDate">11 January 2019</p>
+                    <p class="operationTime">10:51:01 - 10:52:09</p>
+                  </div>
+                </td>
+                <td>
+                  <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                  35:15
+                </td>
+                <td>
+                  <div class="tooltip">
+                    <div class="progressBar">
+                      <div class="progress" style="width:97%"></div>
+                    </div>
+                    <p class="progressPercentage">97%</p>
+                    <img class="successCheckmark" src="./resources/img/circular-shape-silhouette.svg"></img>
+                    <p class="progressStatus">Succeeded</p>
+                    <span class="tooltiptext">
+                      <p class="progressArea">
+                        Anatomic Structure
+                      </p>
+                      <p class="progressAreaPercentage">
+                        100%
+                      </p>
+                      <p class="progressArea">
+                        Complications
+                      </p>
+                      <p class="progressAreaPercentage">
+                        95%
+                      </p>
+                      <p class="progressArea">
+                        Operation Steps
+                      </p>
+                      <p class="progressAreaPercentage">
+                        100%
+                      </p>
+                    </span>
+                  </div>
+                </td>
+                <td>
+                  <div class="reportUserProfile">
+                      <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                      Arne Schlenzka
+                  </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="reportOperationName">
+                      Carpal Tunnel Release
+                    </p>
+                </td>
+                <td>
+                  <div class="operationTimeDate">
+                    <p class="operationDate">11 January 2019</p>
+                    <p class="operationTime">10:51:01 - 10:52:09</p>
+                  </div>
+                </td>
+                <td>
+                  <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                  35:15
+                </td>
+                <td>
+                    <div class="tooltip">
+                        <div class="progressBar">
+                          <div class="progress" style="width:20%"></div>
+                        </div>
+                        <p class="progressPercentage">20%</p>
+                        <img class="successCheckmark" src="./resources/img/circular-shape-silhouette.svg"></img>
+                        <p class="progressStatus">Succeeded</p>
+                        <span class="tooltiptext">
+                          <p class="progressArea">
+                            Anatomic Structure
+                          </p>
+                          <p class="progressAreaPercentage">
+                            100%
+                          </p>
+                          <p class="progressArea">
+                            Complications
+                          </p>
+                          <p class="progressAreaPercentage">
+                            95%
+                          </p>
+                          <p class="progressArea">
+                            Operation Steps
+                          </p>
+                          <p class="progressAreaPercentage">
+                            100%
+                          </p>
+                        </span>
+                    </div>
+                </td>
+                <td>
+                  <div class="reportUserProfile">
+                      <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                      Arne Schlenzka
+                  </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="reportOperationName">
+                      Carpal Tunnel Release
+                    </p>
+                </td>
+                <td>
+                  <div class="operationTimeDate">
+                    <p class="operationDate">11 January 2019</p>
+                    <p class="operationTime">10:51:01 - 10:52:09</p>
+                  </div>
+                </td>               
+                <td>
+                  <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                  35:15
+                </td>
+                <td>
+                  <div class="progressPaused">
+                      <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                      Paused
+                  </div>
+                </td>
+                <td>
+                  <div class="reportUserProfile">
+                      <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                      Arne Schlenzka
+                  </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="reportOperationName">
+                      Carpal Tunnel Release
+                    </p>
+                </td>
+                <td>
+                  <div class="operationTimeDate">
+                    <p class="operationDate">11 January 2019</p>
+                    <p class="operationTime">10:51:01 - 10:52:09</p>
+                  </div>
+                </td>
+                <td>
+                  <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                  35:15
+                </td>
+                <td>
+                    <div class="progressFailed">
+                        <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                        Failed
+                    </div>
+                </td>
+                <td>
+                  <div class="reportUserProfile">
+                      <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                      Arne Schlenzka
+                  </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="reportOperationName">
+                      Carpal Tunnel Release
+                    </p>
+                </td>
+                <td>
+                  <div class="operationTimeDate">
+                    <p class="operationDate">11 January 2019</p>
+                    <p class="operationTime">10:51:01 - 10:52:09</p>
+                  </div>
+                </td>
+                <td>
+                  <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                  35:15
+                </td>
+                <td>
+                    <div class="tooltip">
+                        <div class="progressBar">
+                          <div class="progress" style="width:97%"></div>
+                        </div>
+                        <p class="progressPercentage">97%</p>
+                        <img class="successCheckmark" src="./resources/img/circular-shape-silhouette.svg"></img>
+                        <p class="progressStatus">Succeeded</p>
+                        <span class="tooltiptext">
+                          <p class="progressArea">
+                            Anatomic Structure
+                          </p>
+                          <p class="progressAreaPercentage">
+                            100%
+                          </p>
+                          <p class="progressArea">
+                            Complications
+                          </p>
+                          <p class="progressAreaPercentage">
+                            95%
+                          </p>
+                          <p class="progressArea">
+                            Operation Steps
+                          </p>
+                          <p class="progressAreaPercentage">
+                            100%
+                          </p>
+                        </span>
+                    </div>
+                </td>
+                <td>
+                  <div class="reportUserProfile">
+                      <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                      Arne Schlenzka
+                  </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="reportOperationName">
+                      Carpal Tunnel Release
+                    </p>
+                </td>
+                <td>
+                  <div class="operationTimeDate">
+                    <p class="operationDate">11 January 2019</p>
+                    <p class="operationTime">10:51:01 - 10:52:09</p>
+                  </div>
+                </td> 
+                <td>
+                  <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                  35:15
+                </td>
+                <td>
+                    <div class="tooltip">
+                        <div class="progressBar">
+                          <div class="progress" style="width:97%"></div>
+                        </div>
+                        <p class="progressPercentage">97%</p>
+                        <img class="successCheckmark" src="./resources/img/circular-shape-silhouette.svg"></img>
+                        <p class="progressStatus">Succeeded</p>
+                        <span class="tooltiptext">
+                          <p class="progressArea">
+                            Anatomic Structure
+                          </p>
+                          <p class="progressAreaPercentage">
+                            100%
+                          </p>
+                          <p class="progressArea">
+                            Complications
+                          </p>
+                          <p class="progressAreaPercentage">
+                            95%
+                          </p>
+                          <p class="progressArea">
+                            Operation Steps
+                          </p>
+                          <p class="progressAreaPercentage">
+                            100%
+                          </p>
+                        </span>
+                    </div>
+                </td>
+                <td>
+                  <div class="reportUserProfile">
+                      <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                      Arne Schlenzka
+                  </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="reportOperationName">
+                      Carpal Tunnel Release
+                    </p>
+                </td>
+                <td>
+                  <div class="operationTimeDate">
+                    <p class="operationDate">11 January 2019</p>
+                    <p class="operationTime">10:51:01 - 10:52:09</p>
+                  </div>
+                </td>
+                <td>
+                  <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                  35:15
+                </td>
+                <td>
+                    <div class="tooltip">
+                        <div class="progressBar">
+                          <div class="progress" style="width:97%"></div>
+                        </div>
+                        <p class="progressPercentage">97%</p>
+                        <img class="successCheckmark" src="./resources/img/circular-shape-silhouette.svg"></img>
+                        <p class="progressStatus">Succeeded</p>
+                        <span class="tooltiptext">
+                          <p class="progressArea">
+                            Anatomic Structure
+                          </p>
+                          <p class="progressAreaPercentage">
+                            100%
+                          </p>
+                          <p class="progressArea">
+                            Complications
+                          </p>
+                          <p class="progressAreaPercentage">
+                            95%
+                          </p>
+                          <p class="progressArea">
+                            Operation Steps
+                          </p>
+                          <p class="progressAreaPercentage">
+                            100%
+                          </p>
+                        </span>
+                    </div>
+                </td>
+                <td>
+                  <div class="reportUserProfile">
+                      <img class="progressLeftImg" src="./resources/img/circular-shape-silhouette.svg"></img>
+                      Arne Schlenzka
+                  </div>
+                </td>
+            </tr>
+        </table>
+
+      <div class="footer">
+          <p class="footerPhone">
+            Need help? Call our hotline: +358 44 555 6666
+          </p>
+  
+          <p class="footerTerms">
+            <a style="margin-right: 1vw" href="">Privacy Policy</a> | <a href="" style="margin-left: 1vw">Terms of Use</a>
+          </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="backgroundBackup"></div>
+
+
+</body>
+</html>

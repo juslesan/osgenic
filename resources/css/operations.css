@@ -1,0 +1,131 @@
+.welcome { /* Welcome header */
+
+    font-size: 3.5vw; 
+    margin-top: 8vw; 
+    margin-bottom: 0;
+    font-family: DINWebLight;
+  
+}
+
+.lastLogin { /*Last login in div*/
+    font-size: 1.3vw;
+    margin-bottom: 3vw;
+}
+
+.proceduresForYou { /* Procedures header */
+    font-size: 1.3vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+
+}
+
+.operationTimeStats { /* Wrapper div for operation time statistics */
+    background-image: linear-gradient(white, #80ffff);
+    width: 90%;
+    height: 10vw;
+    border-radius: 5px;
+    padding: 1%;
+    color: #008080;
+}
+
+.timeSpent {
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
+
+.averageCompletion {
+    margin-left: 10%;
+    position: relative;
+    float: left;
+}
+
+.operationStatName   {
+    font-size: 1.2vw;
+}
+
+.timeStatNumber {
+    position: relative;
+    float: left;
+    font-size: 3.2vw;
+    margin: 0;
+    margin-right: 0.7vw;
+}
+
+.timeStatText {
+    position: relative;
+    float: left;
+    font-size: 1.3vw;
+    margin-bottom: 0px;
+    margin-top: 1.6vw;
+    margin-right: 0.7vw;
+
+}
+
+.operationsWrapper { /* Wrapper for operations */
+    display: grid;
+    width: 92%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5vw;
+    grid-auto-rows: minmax(22vw, auto);
+    color: #008080;
+}
+
+.operation { /* Single operation div*/
+    width: 91%;
+    background-image: linear-gradient(white, #80ffff);
+    border-radius: 5px;
+    padding: 4%;
+    padding-bottom: 0%;
+}
+
+.operationName {
+    font-family: DINWebLight;
+    font-size: 1.7vw;
+}
+
+.operationLayer { /* Overlayed div on hover*/
+	position:relative;
+	background: transparent;
+    height: 55%;
+    margin: 0 auto;
+}
+
+.operationOverlap{
+    position: relative;
+    z-index: 1;
+}
+
+.buttonOverlap{ /* Button on hover overlay */
+	position: absolute;
+    z-index: 2;
+    top: 31%;
+    display: none;
+    left: 25%;	
+}
+
+.operationLayer:hover .buttonOverlap{ 
+	display:block;
+}
+
+.operationLayer:hover { 
+    background: #282828;
+    opacity: 0.6;
+}
+
+.operationTime {
+    font-size: 1vw;
+    position: relative;
+    float: left;
+    margin-bottom: 0;
+}
+
+.operationCompleted {
+    font-size: 1vw;
+    position: relative;
+    float: right;
+    margin-bottom: 0;
+
+}
+
+

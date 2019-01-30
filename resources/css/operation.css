@@ -1,0 +1,70 @@
+.operationPage {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    top: 20vh;
+    font-size: 1.6vw;
+}
+.operationPage > h1 {
+    text-align: center;
+    font-family: DINWebLight;
+    font-size: 3.5vw;
+    margin-bottom: 8vh;
+}
+
+.operationTimePassed {
+    position: relative;
+    left: 33.5%;
+    height: 10vh;
+    width: 50%;
+}
+
+.timeStatNumber {
+    color:  #008080;
+    position: relative;
+    float: left;
+    font-size: 3.2vw;
+    margin: 0;
+    margin-right: 0.7vw;
+}
+
+.timeStatText {
+    /* color:  #00cccc; */
+    position: relative;
+    float: left;
+    font-size: 1.3vw;
+    margin-bottom: 0px;
+    margin-top: 1.6vw;
+    margin-right: 0.7vw;
+
+}
+
+.returnButton {
+    background-color: Transparent; 
+    margin: 1vw;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    color: lightgrey;
+    padding: 1.1vw 1.4vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.0vw;
+}
+
+.operationButtons{
+    position: relative;
+    top: 8vh;
+    font-size: 1.2vw;
+}
+
+.cancelButton {
+    background-color: red; 
+    margin: 1vw;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: lightgrey;
+    padding: 1.1vw 4.5vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.0vw;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/profile.css" type="text/css" rel="stylesheet">
+
+  <title>Site</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="navbar">
+
+        <div class="logo">
+            <img src="./resources/img/circular-shape-silhouette.svg">
+        </div>
+
+    <a href="operations.html" class="navbarLink">
+        <div class="navbarItem">
+          <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+              Operations
+            </p>
+        </div>
+        </a>
+
+    <a href="reports.html" class="navbarLink">
+        <div class="navbarItem" >
+            <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+              Report
+            </p>
+        </div>
+    </a>
+
+      <a href="profile.html" class="navbarLink">
+        <div class="navbarItem"  style="background-color: gray" >
+            <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+              Profile
+            </p>
+        </div>
+    </a>
+
+    <a href="" class="navbarLink">
+        <div class="navbarItem">
+            <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+                Help
+            </p>
+        </div>
+    </a>
+
+    <a href="login.html" class="logoutLink">
+        <div class="logout">
+            <img src="./resources/img/circular-shape-silhouette.svg">
+            <p>
+                Logout
+            </p>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="userLoggedIn">
+        <p>Logged in as</p>
+        <div class="profile">
+            <a href="profile.html">
+                <img src="./resources/img/circular-shape-silhouette.svg"></img>
+            </a>
+            <div class="userinfo">
+                <p class="username">
+                    <a href="profile.html">Arne Schlenzka</a>
+                </p>      
+                <p class="userrole">
+                    HOSPITAL ADMIN
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1 class="pageHeader">
+            Profile
+        </h1>
+        <div class="profileForm">
+          
+            <form method="post" action="profile.html">
+                <div class="profileInputs">
+                    <input type="text" placeholder="Name" name="username" value="Arne Schlenzka" required>
+                    <input type="text" placeholder="Email" name="username" value="arne.schlenzka@osgenic.com" required>
+                    <input type="text" placeholder="Phone" name="username" value="+358 50 556 6677" required>
+                    <input type="text" placeholder="Hospital" name="username" value="HYKS" required>
+                    <input type="text" placeholder="Role admin" name="username" value="Hospital admin" required>
+                </div>
+          
+                <button type="submit" class="postButton">SAVE SETTINGS</button>
+                    
+            </form>
+        </div>
+
+        <div class="profilePicture">
+            <img src="./resources/img/circular-shape-silhouette.svg">
+            <button type="submit" class="pictureButton">CHANGE PROFILE PICTURE</button>
+
+        </div>
+
+        <div class="footer">
+            <p class="footerPhone">
+              Need help? Call our hotline: +358 44 555 6666
+            </p>
+    
+            <p class="footerTerms">
+                <a style="margin-right: 1vw" href="">Privacy Policy</a> | <a href="" style="margin-left: 1vw">Terms of Use</a>
+            </p>
+        </div>
+    </div>
+    
+  </div>
+
+  <div class="backgroundBackup"></div>
+
+
+</body>
+</html>

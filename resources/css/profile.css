@@ -1,0 +1,68 @@
+.profileForm { /* Profile forms wrapper */
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    color: gray;
+    height: auto;
+    display: inline-block;
+    width: 35%;
+}
+
+.profileInputs {
+    width: 100%;
+    height: auto;
+}
+
+.profilePicture { /* Wrapper div for changing profile picture */
+    position: relative;
+    top: -22vw;
+    left: 12vw;
+    width: 14vw;
+    display: inline-block;
+
+}
+
+.profilePicture > img {
+    width: 100%;
+}
+
+.pictureButton { /* Button styling for profile picture changing */
+    width: 100%;
+    position: relative;
+    margin-top: 1vw;
+    background-color: transparent; 
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    color: lightgray;
+    padding: 1.1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
+input[type=text] { /* Styling for form inputs */
+    position: relative;
+    float: down;
+    width: 100%;
+    padding: 1vw 1vw;
+    margin: 1.5vw 0vw;
+    border: 2px solid grey;
+    background-color: #003333;
+    color: lightgrey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 1.5vw;
+}
+
+.postButton { /* Submit button styling for profile information form */
+    position: relative;
+    margin-top: 3vw;
+    background-color: #009999; 
+    border: 1px solid #009999;
+    border-radius: 4px;
+    color: white;
+    padding: 1.1vw 4vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8vw;
+}

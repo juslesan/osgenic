@@ -1,0 +1,186 @@
+table {
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+  border-collapse: collapse;
+  border-radius: 4px; 
+  width: 90%;
+  color: grey;
+  font-family: DINWebLight;
+  background-image: linear-gradient(white, #ddffff); /* Gradient background color for table*/
+}
+  
+th, td { 
+  text-align: left;
+  padding: 1vw 2vw; /* Padding for all table contents */
+}
+
+
+tr { /* Sets row height and font-size for all rows */
+  height: 7vw;
+  font-size: 1.2vw
+
+}
+  
+tr:nth-child(odd){background-color: #ccffff} /* Background color for all odd rows */ 
+tr:nth-child(even){background-color: transparent} /* Transparent color for all even rows */
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 4px; /* Required for tables border radius */
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 4px; /* Required for tables border radius */
+}
+
+table th:first-child { 
+  padding-left: 3vw; /* Adds padding to headers first column*/
+  border-top-left-radius: 4px; /* Required for tables border radius */
+
+}
+table td:first-child { 
+  padding-left: 3vw; /* Adds padding to first column*/
+  
+}
+
+table th:last-child {
+  border-top-right-radius: 4px; /* Required for tables border radius */
+}
+
+th { /* Table header row columns styling */
+  background-color: white;
+  font-family: DINWebLight;
+  height: 5vw;
+  font-size: 1.5vw;
+  border-bottom: solid 1px #e6ffff;
+  padding-bottom: 0.5vw;
+  padding-top: 2vw;
+}
+
+.reportOperationName {
+  width: 10vw;
+}
+
+
+.reportUserProfile { /* Wrapper for user info */
+  position: relative; 
+  width: 15vw;
+  font-size: 1.2vw;
+
+}
+
+.operationTimeDate {
+  width: 12vw;
+}
+
+.operationDate {
+  color: rgb(179, 179, 179);
+  margin: 0;
+}
+
+.operationTime {
+  margin: 0;
+}
+
+.progressBar { /* Empty progress bar*/
+  position: relative;
+  top: 0.5vw;
+  width: 11vw;
+  height: 0.4vw;
+  border-radius: 4px;
+  background-color: lightgrey;
+  margin-bottom: 0w;
+}
+
+.progress { /* Progress for the progress bar, width from html inline */
+  height: 100%;
+  background-color: #008080;
+  border-radius: 4px;
+}
+
+.progressPercentage { /* Percentage text under progress bar */
+  font-size: 1vw;
+  position: relative;
+  color: #008080;
+  float: left;
+}
+
+.progressStatus { /* Status text under progress bar */
+  font-size: 1vw;
+  position: relative;
+  color: #01adad;
+  float: right;
+}
+
+.successCheckmark {
+  position: relative; 
+  float: right;
+  width: 1vw;
+  top: 1.0vw;
+  margin-left: 0.4vw;
+}
+
+.progressPaused {
+  color: gray;
+}
+
+.progressLeftImg {
+  position: relative;
+  float: left;
+  top: -0.3vw;
+  margin-right: 1vw;
+  width: 2vw;
+}
+
+.progressFailed { 
+  color: red;
+}
+
+
+.tooltip { /* Wrapper div for tooltip */
+  position: relative;
+  display: inline-block;
+  top: 0.5vw;
+}
+
+.tooltip .tooltiptext { /* Tooltip pop-up styling */
+  visibility: hidden; /* Default hidden */
+  width: 10vw;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 0.2vw;
+  top: -4.5vw;
+ 
+  position: absolute;
+  left: 0.9vw;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext::after { /* Bottom arrow on tooltip */
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 45%;
+  border-width: 0.4vw;;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext { /* Show tooltip on hover */
+  visibility: visible;
+}
+
+.progressArea { /* Tooltip text*/
+  margin: 0.2vw;
+  position: relative;
+  float: left;
+  font-size: 0.8vw;
+}
+
+.progressAreaPercentage { /* Tooltip percentage*/
+  margin: 0.2vw;
+  position: relative;
+  float: right;
+  font-size: 0.8vw;
+}
+
